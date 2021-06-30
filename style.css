@@ -95,7 +95,6 @@ div{
 }
 
 
-
 section {
     border-radius: 10px;
     position: relative;
@@ -180,4 +179,14 @@ footer{
   margin: auto;
   padding: 10px;
 
+}
+
+.formulario{
+    text-align: center;
+    display: inline;
+}
+
+.icon{
+    width: 5%;
+    height: 4%;
 }
