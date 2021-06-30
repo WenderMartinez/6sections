@@ -15,14 +15,17 @@ nav {
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-}
-
-.banner{
     background-image: url('/public/fondo.gif');
     background-size: contain;
     background-attachment: fixed;
     background-repeat: repeat-y;
+}
+
+.banner{
+    
     padding-top: 2%;
+    height: 100%;
+    width: 100%;
 }
 
 
@@ -116,9 +119,9 @@ footer{
     background-color: aquamarine;
     text-align: center;
     font-size: 12px;
-    bottom: 100%;
-    position: relative;
-    bottom: 0%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .edificio{
@@ -157,4 +160,24 @@ footer{
     filter: invert() sepia();
     text-transform: uppercase;
     list-style: none;
+}
+
+.a{
+    float: left;
+    width: 20%;
+    margin-left: 20%;
+    text-align: center;
+}
+
+.b{
+    float: right;
+    margin-right: 20%;
+}
+
+.row{
+    width: 80%;
+  height: 200px;
+  margin: auto;
+  padding: 10px;
+
 }
