@@ -7,49 +7,53 @@
     <title>Universidad Maracaibo</title>
 </head>
 <body>
-    <div>
-        <nav>
-            <div>
-                <img src="logo.png" alt="Logo">
-            </div>
-            <ul>
-                <li> <a href="#">Inicio</a>         </li>
-                <li> <a href="#">Pregrado</a>       </li>
-                <li> <a href="#">Postgrado</a>      </li>
-                <li> <a href="#">Sobre nosotros</a> </li>
-                <li> <a href="#">Inscripcion</a>    </li>
-                <li> <a href="#">Contactanos</a>    </li>
-            </ul>
-        </nav>
-    </div>
-    <div>
-        <section>
-            <h1>UNIVERSIDAD MARACAIBO</h1>
-            <p>Somos un instituto de renombre en toda latinoamérica, disponemos de numerosas áreas de investigación, egresados mundialmente reconocidos y galardonados por sus logros y contribuciones a las ciencias</p>
-        </section>
-    </div>
-    <div>
-        <section>
-            <h2>Nuestro campus</h2>
-            <p>La institución está dividida en 2 áreas: <br>
+    <div class="banner">
+        <div>
+            <nav>
+                <div>
+                    <img class="logo" src="/public/logo.png" alt="Logo">
+                </div>
                 <ul>
-                    <li> 
-                        <a href="#"> <span>Pregrado</span> </a> 
-                        <img src="" alt="Edificio de pregrado"> 
-                    </li>
-
-                    <li> 
-                        <a href="#"> <span>Postgrado</span> </a>
-                        <img src="" alt="Edificio de postgrado">
-                    </li>
-                </ul><br>
-                Disponemos de un edificio de 5 plantas para cada área con sus propias laboratorios dedicados a investigación, biblioteca, comedor y aulas dedicadas a las clases magistrales para nuestros alumnos <br>
-                Además de tener nuestra propia Aula Magna
-            </p>
-        </section>
+                    <li class="linav"> <a href="#">Inicio</a>         </li>
+                    <li class="linav"> <a href="#">Pregrado</a>       </li>
+                    <li class="linav"> <a href="#">Postgrado</a>      </li>
+                    <li class="linav"> <a href="#">Sobre nosotros</a> </li>
+                    <li class="linav"> <a href="#">Inscripcion</a>    </li>
+                    <li class="linav"> <a href="#">Contactanos</a>    </li>
+                </ul>
+            </nav>
+            <section>
+                <div class="title">
+                    <h1 aria-multiline="true">UNIVERSIDAD MARACAIBO</h1>
+                    <p>Somos un instituto de renombre en toda latinoamérica, disponemos de numerosas áreas de investigación, egresados mundialmente reconocidos y galardonados por sus logros y contribuciones a las ciencias</p>
+                </div>
+                <div>
+                    <h2>Nuestro campus</h2>
+                    <p>La institución está dividida en 2 áreas:
+                        <div class="ul">
+                            <ul>
+                                <li><a class="nada" href="#"> <span class="enlace">Pregrado:</span> </a> <p>Área académica donde se adquiren los conocimientos básicos de una profesión</p> </li>
+                                <li><a class="nada" href="#"> <span class="enlace">Postgrado</span> </a> <p>Área académica donde se adquieren los conocimientos especializados de una profesión</p> </li>
+                            </ul>
+                        </div>
+                        
+                        <br>
+                        <p>
+                            Disponemos de un edificio de 5 plantas para cada área con sus propias laboratorios dedicados a investigación, biblioteca, comedor y aulas dedicadas a las clases magistrales para nuestros alumnos <br>
+                            Además de tener nuestra propia Aula Magna
+                        </p>
+                        <div class="card">
+                            <img src="public/edificio.jpg" class="edificio" alt="">
+                        </div>
+                    </p>
+                </div>
+                
+            </section>
+        </div>
+        <div>
+            <footer class="footer">Copyright © 2021 UNIVERSIDAD DE MARACAIBO - All Rights Reserved></footer>
+        </div>
     </div>
-    <div>
-        <footer class="footer">Copyright © 2021 UNIVERSIDAD DE MARACAIBO - All Rights Reserved></footer>
-    </div>
+    
 </body>
 </html>
